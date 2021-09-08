@@ -1,3 +1,4 @@
+section {display: flex;}
 
 img {width: 100%; height: auto;}
 		#gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
