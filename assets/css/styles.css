@@ -10,13 +10,12 @@ ul{
 }
 
 img {width: 100%; height: auto;}
-		#gallery{display: flex; flex-wrap: wrap;}
+		#gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
 		.img_double{width: 50%;}
 		.img_simple{width: 25%;}
 		.full_width{width: 100%; display: flex;
     justify-content: center;
-    background: #000;
-    padding: 5em 0;}
+    background: #000;}
 		.full_width a{  color: #fff;
     text-decoration: none;
     text-transform: uppercase;
