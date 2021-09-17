@@ -10,7 +10,7 @@ ul{
 }
 
 img {width: 100%; height: auto;}
-		#gallery{display: flex; flex-wrap: wrap; justify-content: space-between; justify-content: space-around;}
+		#gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
 		.img_double{width: 50%;}
 		.img_simple{width: 25%;}
 		.full_width{width: 100%; display: flex;
@@ -24,4 +24,3 @@ img {width: 100%; height: auto;}
     border: 1px solid #fff}
 
     .full_width a:hover{color: #000; background-color: #fff;}
-
