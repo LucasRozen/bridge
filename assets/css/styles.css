@@ -1,5 +1,9 @@
 section {display: flex;}
 
+ul{
+  list-style-type: none;
+}
+
 img {width: 100%; height: auto;}
 		#gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
 		.img_double{width: 50%;}
