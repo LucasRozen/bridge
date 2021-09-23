@@ -1,23 +1,27 @@
+//comienzo de bucle para la lista de canciones reproductor big
 var ul1 = document.getElementById("loop_lista_de_canciones_reproductor_big");
 
         var canciones=[{nombre:"Black Hole Sun",duracion: "0:32"},{nombre:"Work",duracion: "0:27"},{nombre:"Lullaby",duracion: "0:30"},{nombre:"The Passanger",duracion: "0:30"},{nombre:"Celebrity Skin",duracion: "0:32"},{nombre:"Creep",duracion: "0:30"},{nombre:"Epic",duracion: "0:30"},{nombre:"Reptilia",duracion: "0:30"},{nombre:"Go With A Flow",duracion: "0:30"},{nombre:"Electric Version",duracion: "0:31"}];
 
         for (i=0;i<10;i++) {
 
-        ul1.innerHTML+=`
+            ul1.innerHTML+=`
 
-        <li>
-        <h3><span>${i+1}.</span>${canciones[i].nombre}</h3><span>${canciones[i].duracion}</span>
-        <a class="reproducir_pausar_reproductor_big">
-            <i class="fas fa-play"><audio src=""></audio></i>
-        </a>
-        <a class="video_reproductor_big" href="https://vimeo.com/33730560">
-            <i class="fa fa-video-camera" aria-hidden="true"></i>
-        </a>
-        </li>
+            <li>
+            <h3><span>${i+1}.</span>${canciones[i].nombre}</h3><span>${canciones[i].duracion}</span>
+            <a class="reproducir_pausar_reproductor_big">
+                <i class="fas fa-play"><audio src=""></audio></i>
+            </a>
+            <a class="video_reproductor_big" href="https://vimeo.com/33730560">
+                <i class="fa fa-video-camera" aria-hidden="true"></i>
+            </a>
+            </li>
         
-        `
+            `
         }
+//fin de bucle para lista de canciones reproductor big
+
+//comienzo de bucle para lista de tickets para el tour/evento
 var ul2 = document.getElementById("tickets_evento");
 
         var fechas_evento=[{numero_fecha:"10",mes_fecha:"JUN",dia_fecha:"SUN",nombre_concierto:"Gärdet Open Air Stockholm – Sweden"},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""}];
@@ -36,3 +40,4 @@ var ul2 = document.getElementById("tickets_evento");
             `            
 
         }
+//fin de bucle para lista de tickets para el tour/evento
