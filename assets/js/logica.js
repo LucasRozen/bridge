@@ -18,3 +18,21 @@ var ul1 = document.getElementById("loop_lista_de_canciones_reproductor_big");
         
         `
         }
+var ul2 = document.getElementById("tickets_evento");
+
+        var fechas_evento=[{numero_fecha:"10",mes_fecha:"JUN",dia_fecha:"SUN",nombre_concierto:"Gärdet Open Air Stockholm – Sweden"},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""},{numero_fecha:"",mes_fecha:"",dia_fecha:"",nombre_concierto:""}];
+
+        for (i=0;i<10;i++){
+
+            ul2.innerHTML+=`
+
+            <li> 
+                <div class="numero_fecha"><span>${fechas_evento[i].numero_fecha}</span></div>
+                <div class="dia_fecha"><span>${fechas_evento[i].mes_fecha}</span><span>${fechas_evento[i].dia_fecha}</span></div>
+                <div class="nombre_concierto"><h5>${fechas_evento[i].nombre_concierto}</h5></div>
+                <div class="buy_tickets"><span>BUY TICKETS</span></div>
+            </li>
+            
+            `            
+
+        }
