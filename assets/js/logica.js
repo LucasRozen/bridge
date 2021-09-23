@@ -30,7 +30,7 @@ var ul2 = document.getElementById("tickets_evento");
                 <div class="numero_fecha"><span>${fechas_evento[i].numero_fecha}</span></div>
                 <div class="dia_fecha"><span>${fechas_evento[i].mes_fecha}</span><span>${fechas_evento[i].dia_fecha}</span></div>
                 <div class="nombre_concierto"><h5>${fechas_evento[i].nombre_concierto}</h5></div>
-                <div class="buy_tickets"><span>BUY TICKETS</span></div>
+                <div class="buy_tickets"><a href="https://bridge217.qodeinteractive.com/"><span>BUY TICKETS</span></a></div>
             </li>
             
             `            
