@@ -22,7 +22,7 @@ var ul1 = document.getElementById("loop_lista_de_canciones_reproductor_big");
 //fin de bucle para lista de canciones reproductor big
 
 //comienzo de bucle para lista de tickets para el tour/evento
-var ul2 = document.getElementsByClassName("tickets_evento");
+var ul2 = document.getElementById("tickets_evento_index");
 
         var fechas_evento=[{numero_fecha:"10",mes_fecha:"JUN",dia_fecha:"SUN",nombre_concierto:"Gärdet Open Air Stockholm – Sweden"},{numero_fecha:"12",mes_fecha:"JUN",dia_fecha:"TUE",nombre_concierto:"Helsinki, Finland – Hartwall Arena"},{numero_fecha:"14",mes_fecha:"JUN",dia_fecha:"THUE",nombre_concierto:"Riga, Latvia – Riga Arena"},{numero_fecha:"15",mes_fecha:"JUN",dia_fecha:"FRI",nombre_concierto:"Kaunas, Lithuania – Žalgirio Arena"},{numero_fecha:"18",mes_fecha:"JUN",dia_fecha:"MON",nombre_concierto:"Moscow, Russia – Olimpiski"},{numero_fecha:"19",mes_fecha:"JUN",dia_fecha:"TUE",nombre_concierto:"Pilton, England – Glastonbury"},{numero_fecha:"22",mes_fecha:"JUN",dia_fecha:"FRI",nombre_concierto:"London, England – O2 Arena"},{numero_fecha:"27",mes_fecha:"JUN",dia_fecha:"WED",nombre_concierto:"Rome, Italy – Cola Arena"},{numero_fecha:"29",mes_fecha:"JUN",dia_fecha:"FRI",nombre_concierto:"Athens, Greece – PAOK Stadium"},{numero_fecha:"03",mes_fecha:"JUL",dia_fecha:"TUE",nombre_concierto:"Budapest, Hungary – Nagy Arena"}];
 
