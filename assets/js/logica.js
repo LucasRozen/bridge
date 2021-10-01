@@ -19,8 +19,8 @@ for (i=0;i<10;i++) {
 //fin de bucle para lista de canciones reproductor big
 
 //comienzo de bucle para lista de tickets para el tour/evento
-var ul2 = document.getElementById("tickets_evento_index");
 var ul3 = document.getElementById("tickets_evento_tour");
+var ul2 = document.getElementById("tickets_evento_index");
 
 function listarEventos(ul){
     var fechas_evento=[
@@ -46,6 +46,6 @@ function listarEventos(ul){
         `            
     }
 }
-listarEventos(ul2)
 listarEventos(ul3)
+listarEventos(ul2)
 //fin de bucle para lista de tickets para el tour/evento
