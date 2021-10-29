@@ -36,3 +36,10 @@ border: 1px solid #fff}
   width: 5.5%; height: auto;
 }
 
+header{
+  background-image: url("/assets/images/home/fondo-pagina.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
