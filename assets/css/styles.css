@@ -53,3 +53,7 @@ header{
 .index-appstore-position-right{
   align-items: right;
 }
+
+.item_navbar{
+  display: inline;
+}
