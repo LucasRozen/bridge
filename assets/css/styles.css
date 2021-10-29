@@ -37,7 +37,7 @@ border: 1px solid #fff}
 }
 
 header{
-  flex: auto;
+  display: flex;
   flex-wrap: wrap;
   background-image: url("/assets/images/home/fondo-pagina.jpg");
   background-repeat: no-repeat;
@@ -52,13 +52,11 @@ header{
 }
 
 .index-appstore-position-right{
-<<<<<<< HEAD
   
-=======
   align-items: right;
+
 }
 
 .item_navbar{
   display: inline;
->>>>>>> de8bf09f804908801342deadbdd54cc142fa254a
 }
