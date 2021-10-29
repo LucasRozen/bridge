@@ -33,7 +33,7 @@ border: 1px solid #fff}
 .full_width a:hover{color: #000; background-color: #fff;}
 
 #bridge-logo-index{
-  width: 5.5%; height: auto;
+  width: 5.5vw; height: auto;
 }
 
 header{
@@ -45,11 +45,12 @@ header{
   height: 100vh;
 }
 
+
 .index-appstore{
   width: auto;
   height: 6vh;
 }
 
 .index-appstore-position-right{
-  align-items: right;
+  
 }
