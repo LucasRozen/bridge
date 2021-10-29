@@ -52,5 +52,13 @@ header{
 }
 
 .index-appstore-position-right{
+<<<<<<< HEAD
   
+=======
+  align-items: right;
+}
+
+.item_navbar{
+  display: inline;
+>>>>>>> de8bf09f804908801342deadbdd54cc142fa254a
 }
