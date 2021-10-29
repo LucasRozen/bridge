@@ -37,9 +37,19 @@ border: 1px solid #fff}
 }
 
 header{
+  flex: auto;
+  flex-wrap: wrap;
   background-image: url("/assets/images/home/fondo-pagina.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
 }
 
+.index-appstore{
+  width: auto;
+  height: 6vh;
+}
+
+.index-appstore-position-right{
+  align-items: right;
+}
