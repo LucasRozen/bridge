@@ -15,7 +15,7 @@ body {
 }
 
 img {width: 100%; height: auto;}
-#gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .img_doble{width: 50%;}
 .img_simple{width: 25%;}
 .full_width{width: 100%; display: flex;
