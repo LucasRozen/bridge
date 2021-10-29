@@ -4,7 +4,7 @@
   
   .columna {
     float: left;
-    width: 50%;
+    width: 25%;
     padding-right: 5px;
   }
   
@@ -14,6 +14,6 @@
     display: table;
   }
 
-  img{
-      width: 25%;
-  }
+ img{
+     width: 100%;
+ }
