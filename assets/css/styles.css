@@ -32,3 +32,14 @@ border: 1px solid #fff}
 
 .full_width a:hover{color: #000; background-color: #fff;}
 
+#bridge-logo-index{
+  width: 5.5%; height: auto;
+}
+
+header{
+  background-image: url("/assets/images/home/fondo-pagina.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
