@@ -13,3 +13,7 @@
     clear: both;
     display: table;
   }
+
+  img{
+      width: 25%;
+  }
