@@ -40,6 +40,6 @@ header{
   background-image: url("/assets/images/home/fondo-pagina.jpg");
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
