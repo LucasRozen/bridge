@@ -1,19 +1,20 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  .columna {
-    float: left;
-    width: 25%;
-    padding-right: 5px;
-  }
-  
-  .fila::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  box-sizing: border-box;
+}
 
- img{
-     width: 100%;
- }
+.thumb {
+  float: left;
+  width: 20%;
+  padding-right: 5px;
+  margin: .5em;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width: 100%;
+}
