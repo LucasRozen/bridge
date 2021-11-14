@@ -1,62 +1,108 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-section {display: flex;}
+section {
+  display: flex;
+}
 
-ul{
+ul {
   list-style-type: none;
 }
 
 body {
   background-color: #000;
-  color:white;
+  color: white;
 }
 
-img {width: 100%; height: auto;}
-.gallery{display: flex; flex-wrap: wrap; justify-content: space-between;}
-.img_doble{width: 50%;}
-.img_simple{width: 25%;}
-.full_width{width: 100%; display: flex;
-justify-content: center;
-background: #000;
-padding: 5em 0;}
-.full_width a{  color: #fff;
-text-decoration: none;
-text-transform: uppercase;
-padding: 0.8em 2em;
-border: 1px solid #fff}
-
-.event_10 {border:#303030;}
-
-.full_width a:hover{color: #000; background-color: #fff;}
-
-#bridge-logo-index{
-  width: 5.5vw; height: auto;
+img {
+  width: 100%;
+  height: auto;
 }
 
-header{
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img_doble {
+  width: 50%;
+}
+
+.img_simple {
+  width: 25%;
+}
+
+.full_width {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  padding: 5em 0;
+}
+
+.full_width a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.8em 2em;
+  border: 1px solid #fff
+}
+
+.event_10 {
+  border: #303030;
+}
+
+.full_width a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+#bridge-logo-index {
+  width: 5.5vw;
+  height: auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+/* header{
   display: flex;
   flex-wrap: wrap;
   background-image: url("../images/home/fondo-pagina.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-}
+} */
 
 
-.index-appstore{
+.index-appstore {
   width: auto;
   height: 6vh;
 }
 
-.index-appstore-position-right{
+.index-appstore-position-right {
   position: absolute;
   left: 80vmax;
   top: 60vmax;
 }
 
-.item_navbar{
-  display: inline;
+.navbar {
+  display: flex;
+  position: relative;
+  left: auto;
+  float: right;
+
+}
+
+.item_navbar {
+  display: flex;
+  line-height: 100px;
+  padding: 1em;
 }
