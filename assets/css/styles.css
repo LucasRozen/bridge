@@ -79,7 +79,7 @@ header {
   background-image: url("../images/about-us/about-the-band.jpg");
 }
 
-.contactus{
+#header-contactus{
   background-image: url("/assets/images/contact-us/contact-us.jpg");
 }
 
