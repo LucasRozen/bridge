@@ -106,3 +106,25 @@ header {
   line-height: 100px;
   padding: 1em;
 }
+
+
+.thumb {
+  float: left;
+  width: 20%;
+  padding-right: 5px;
+  margin: .5em;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img_discography {
+  width: 100%;
+}
+
+/* .all_discography {
+  box-sizing: border-box;
+} */
