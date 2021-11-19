@@ -65,6 +65,8 @@ img {
   height: auto;
 }
 
+/*headers*/
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +74,11 @@ header {
   height: 60vh;
 }
 
+#header-aboutus{
+  background-image: url("/assets/images/about-us/about-the-band.jpg");
+}
+
+/*fin headers*/
 .contactus{
   background-image: url("/assets/images/contact-us/contact-us.jpg");
   background-repeat: no-repeat;
