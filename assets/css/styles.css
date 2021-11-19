@@ -80,7 +80,7 @@ header {
 }
 
 #header-contactus{
-  background-image: url("/assets/images/contact-us/contact-us.jpg");
+  background-image: url("../images/contact-us/contact-us.jpg");
 }
 
 /*fin headers*/
