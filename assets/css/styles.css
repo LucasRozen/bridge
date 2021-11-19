@@ -78,15 +78,16 @@ header {
 #header-index{
   background-image: url("../images/home/fondo-pagina.jpg");
   height: 100vh;
+  position: relative;
+}
+.index-appstore-position-right {
+  position: absolute;
+  bottom: 15%;
+  right: 20%;
 }
 .index-appstore {
   width: auto;
   height: 6vh;
-}
-.index-appstore-position-right {
-  position: absolute;
-  left: 80vmax;
-  top: 60vmax;
 }
 
 #header-aboutus{
