@@ -72,6 +72,11 @@ header {
   height: 100vh;
 }
 
+.contactus{
+  background-image: url("/assets/images/contact-us/contact-us.jpg");
+  background-repeat: no-repeat;
+}
+
 /* header{
   display: flex;
   flex-wrap: wrap;
@@ -106,3 +111,4 @@ header {
   line-height: 100px;
   padding: 1em;
 }
+
