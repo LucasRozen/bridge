@@ -82,6 +82,7 @@ header {
   justify-content: space-between;
 }
 #index-boringvaccines{
+  z-index: 6;
   font-size: 10em;
   position: absolute;
   left: 0%;
@@ -127,6 +128,15 @@ header {
 }
 
 /*fin headers*/
+
+/*index*/
+
+.reproductor-small{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*fin index*/
 
 .thumb {
   float: left;
