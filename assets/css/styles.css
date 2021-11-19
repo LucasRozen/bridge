@@ -83,6 +83,10 @@ header {
   background-image: url("../images/contact-us/contact-us.jpg");
 }
 
+#header-album{
+  height: 10vh;
+}
+
 /*fin headers*/
 
 
