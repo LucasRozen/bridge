@@ -72,6 +72,11 @@ header {
   height: 100vh;
 }
 
+.contactus{
+  background-image: url("/assets/images/contact-us/contact-us.jpg");
+  background-repeat: no-repeat;
+}
+
 /* header{
   display: flex;
   flex-wrap: wrap;
@@ -107,6 +112,7 @@ header {
   padding: 1em;
 }
 
+<<<<<<< HEAD
 
 .thumb {
   float: left;
@@ -128,3 +134,5 @@ header {
 /* .all_discography {
   box-sizing: border-box;
 } */
+=======
+>>>>>>> 4ddf8695da97dbe883fe687e6f68ba3f8679ac31
