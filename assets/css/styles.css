@@ -80,11 +80,13 @@ header {
   background-repeat: no-repeat;
 }
 
+/*formato del nav bar del header*/
 header nav ul li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
+/*------------------------------*/
 
 #header-index{
   background-image: url("../images/home/fondo-pagina.jpg");
@@ -144,7 +146,8 @@ header nav ul li a{
 
 .reproductor-small{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 /*fin index*/
