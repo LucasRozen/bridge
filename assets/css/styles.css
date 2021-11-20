@@ -80,7 +80,7 @@ header {
   background-repeat: no-repeat;
 }
 
-header nav ul li{
+header nav ul li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
