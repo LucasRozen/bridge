@@ -147,7 +147,25 @@ header nav ul li a{
 .reproductor-small{
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: column;
+}
+
+
+.no-wrap-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.reproductor-small-span-no-wrap-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% auto;
+}
+
+.reproductor-small span div img{
+  width: 25%;
+  height: auto;
 }
 
 /*fin index*/
