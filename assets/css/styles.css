@@ -79,6 +79,7 @@ header {
   width: 100%;
   height: 60vh;
   background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*formato del nav bar del header*/
@@ -86,6 +87,8 @@ header nav ul li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.875em;
+  font-weight: 400;
 }
 /*------------------------------*/
 
@@ -101,7 +104,6 @@ header nav ul li a{
 }
 #index-boringvaccines{
   z-index: 6;
-  font-size: 10em;
   position: absolute;
   left: 0%;
   bottom: 0%;
@@ -110,6 +112,9 @@ header nav ul li a{
   max-height: none;
   transform: matrix3d(0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0em;
+  font-size: 14.875em;
+  font-weight: 600;
+
 }
 .index-appstore-position-right {
   position: absolute;
