@@ -14,6 +14,7 @@ ul {
 body {
   background-color: #000;
   color: white;
+  font-size: 100%;
 }
 
 img {
@@ -90,7 +91,11 @@ header nav ul li a{
 
 #header-index{
   background-image: url("../images/home/fondo-pagina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
+  width: 100%;
   position: relative;
   justify-content: space-between;
 }
@@ -101,7 +106,10 @@ header nav ul li a{
   left: 0%;
   bottom: 0%;
   text-transform: uppercase;
+  min-height: 0em;
+  max-height: none;
   transform: matrix3d(0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0em;
 }
 .index-appstore-position-right {
   position: absolute;
@@ -148,7 +156,6 @@ header nav ul li a{
   display: flex;
   flex-wrap: nowrap;
 }
-
 
 .no-wrap-flex{
   display: flex;
