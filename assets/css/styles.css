@@ -105,8 +105,8 @@ header nav ul li a{
 #index-boringvaccines{
   z-index: 6;
   position: absolute;
-  left: -12vmax;
-  bottom: 7vmax;
+  left: -12%;
+  bottom: 14%;
   text-transform: uppercase;
   min-height: 0em;
   max-height: none;
@@ -124,8 +124,13 @@ header nav ul li a{
 }
 .index-appstore-position-right {
   position: absolute;
-  bottom: 15%;
-  right: 20%;
+  bottom: 12%;
+  right: 17%;
+}
+.index-appstore-position-right h2{
+  font-size: 3.75em;
+  font-weight: 400;
+  line-height: 1.15em;
 }
 .index-appstore {
   width: auto;
