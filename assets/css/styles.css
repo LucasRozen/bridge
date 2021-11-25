@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 section {
@@ -257,9 +259,4 @@ header nav ul li a {
 
 .buy_tickets{
   font-size: 1.0625em;
-}
-
-.oswald{
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
 }
