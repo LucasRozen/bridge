@@ -83,10 +83,16 @@ h2 {
   margin: 1em;
 }
 
-#bridge-logo-footer {
+.bridge-logo-footer {
   width: 11vw;
   height: auto;
   margin: 1em;
+}
+
+#bridge-logo-footer {
+  width: 9vw;
+  height: auto;
+  margin-bottom: 1em;
 }
 
 #bridge-iconos-footer {
