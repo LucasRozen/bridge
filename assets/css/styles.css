@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 section {
@@ -121,14 +123,12 @@ header {
   width: 100%;
   height: 60vh;
   background-repeat: no-repeat;
-  font-family: 'Oswald', sans-serif;
 }
 
 /*formato del nav bar del header*/
 header nav ul li a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 0.875em;
   font-weight: 400;
 }
@@ -275,6 +275,7 @@ header nav ul li a {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -287,4 +288,32 @@ header nav ul li a {
   margin-right: 1%;
   margin-bottom: 1em;
   box-sizing: border-box;
+=======
+.numero_fecha{
+  font-size: 3.4375em;
+  font-weight: 600;
+  line-height: 3.4375em;
+}
+
+.dia_fecha{
+  font-size: 0.9375em;
+  font-weight: 400;
+  line-height: 0.9375em;
+}
+
+.nombre_concierto{
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 0.875em;
+}
+
+.buy_tickets{
+  font-size: 1.0625em;
+  font-weight: 600;
+  line-height: 1.0625em;
+}
+
+.inconsolata{
+  font-family: 'Inconsolata', sans-serif;
+>>>>>>> 58cf8a1060d0ffb281a13d8211359672b7713e34
 }
