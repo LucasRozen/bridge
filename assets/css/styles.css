@@ -269,4 +269,6 @@ header nav ul li a {
 
 .inconsolata{
   font-family: 'Inconsolata', sans-serif;
+  text-transform: initial;
+  color: #a09d9d;
 }
