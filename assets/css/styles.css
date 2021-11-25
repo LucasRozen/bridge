@@ -368,3 +368,7 @@ header nav ul li a {
   padding-top: 0%;
   height: 15vh;
 }
+
+.p_event {
+  width: 100%;
+}
