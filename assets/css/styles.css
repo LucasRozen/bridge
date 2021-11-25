@@ -196,6 +196,13 @@ header nav ul li a {
 
 #header-aboutus {
   background-image: url("../images/about-us/about-the-band.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
 }
 
 #header-contactus {
@@ -289,31 +296,31 @@ header nav ul li a {
   box-sizing: border-box;
 }
 
-.numero_fecha{
+.numero_fecha {
   font-size: 3.4375em;
   font-weight: 600;
   line-height: 3.4375em;
 }
 
-.dia_fecha{
+.dia_fecha {
   font-size: 0.9375em;
   font-weight: 400;
   line-height: 0.9375em;
 }
 
-.nombre_concierto{
+.nombre_concierto {
   font-size: 0.875em;
   font-weight: 400;
   line-height: 0.875em;
 }
 
-.buy_tickets{
+.buy_tickets {
   font-size: 1.0625em;
   font-weight: 600;
   line-height: 1.0625em;
 }
 
-.inconsolata{
+.inconsolata {
   font-family: 'Inconsolata', sans-serif;
   text-transform: initial;
   color: #a09d9d;
