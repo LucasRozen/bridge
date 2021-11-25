@@ -71,6 +71,14 @@ h2 {
 #bridge-logo-index {
   width: 5.5vw;
   height: auto;
+  margin: 1em;
+
+}
+
+#bridge-logo-disc {
+  width: 7vw;
+  height: auto;
+  margin: 1em;
 }
 
 /*headers*/
@@ -91,6 +99,16 @@ header nav ul li a {
   text-transform: uppercase;
   font-size: 0.875em;
   font-weight: 400;
+}
+
+#header-disc {
+
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
 }
 
 /*------------------------------*/
