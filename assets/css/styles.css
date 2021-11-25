@@ -245,6 +245,8 @@ header nav ul li a {
 
 .numero_fecha{
   font-size: 3.4375em;
+  font-weight: 600;
+  line-height: 3.4375em;
 }
 
 .dia_fecha{
