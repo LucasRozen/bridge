@@ -137,7 +137,7 @@ header nav ul li a {
 
   background-size: cover;
   background-position: center center;
-  height: 30vh;
+  height: 13vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
@@ -219,6 +219,7 @@ header nav ul li a {
   position: relative;
   left: auto;
   float: right;
+  margin-right: 4em;
 
 }
 
@@ -278,7 +279,7 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 84%;
+  width: 90%;
   margin: auto;
 }
 
@@ -324,4 +325,12 @@ header nav ul li a {
   font-family: 'Inconsolata', sans-serif;
   text-transform: initial;
   color: #a09d9d;
+}
+
+.arriba {
+  margin-top: 0%;
+  margin: 0%;
+  margin-left: 4em;
+  padding-top: 0%;
+  height: 15vh;
 }
