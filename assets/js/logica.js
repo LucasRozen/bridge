@@ -16,10 +16,10 @@ function listarEventos(ul){
     for (i=0;i<10;i++){
         ul.innerHTML+=`
             <li> 
-                <div class="numero_fecha oswald"><span>${fechas_evento[i].numero_fecha}</span></div>
-                <div class="dia_fecha oswald"><span>${fechas_evento[i].mes_fecha}</span><span>${fechas_evento[i].dia_fecha}</span></div>
-                <div class="nombre_concierto oswald"><h5>${fechas_evento[i].nombre_concierto}</h5></div>
-                <div class="buy_tickets oswald"><a href="https://bridge217.qodeinteractive.com/"><span>BUY TICKETS</span></a></div>
+                <div class="numero_fecha"><span>${fechas_evento[i].numero_fecha}</span></div>
+                <div class="dia_fecha"><span>${fechas_evento[i].mes_fecha}</span><span>${fechas_evento[i].dia_fecha}</span></div>
+                <div class="nombre_concierto"><h5>${fechas_evento[i].nombre_concierto}</h5></div>
+                <div class="buy_tickets"><a href="https://bridge217.qodeinteractive.com/"><span>BUY TICKETS</span></a></div>
             </li>            
         `            
     }
