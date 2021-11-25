@@ -143,6 +143,16 @@ header nav ul li a {
   justify-content: space-between;
 }
 
+#header-event {
+  background-size: cover;
+  background-position: center center;
+  height: 13vh;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+
+}
+
 /*------------------------------*/
 
 #header-index {
@@ -296,6 +306,25 @@ header nav ul li a {
   margin-bottom: 1em;
   box-sizing: border-box;
 }
+
+.con_event {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 4em;
+}
+
+.con_event article {
+  width: 30%;
+  height: 2.5em;
+  margin-right: 5%;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  margin-top: 4em;
+
+}
+
 
 .numero_fecha {
   font-size: 3.4375em;
