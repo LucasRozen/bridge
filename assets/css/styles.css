@@ -242,3 +242,11 @@ header nav ul li a {
   width: 84%;
   margin: auto;
 }
+
+.numero_fecha{
+  font-size: 3.4375em;
+}
+.oswald{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
