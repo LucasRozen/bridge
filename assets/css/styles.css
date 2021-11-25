@@ -81,6 +81,38 @@ h2 {
   margin: 1em;
 }
 
+#bridge-logo-footer {
+  width: 11vw;
+  height: auto;
+  margin: 1em;
+}
+
+#bridge-iconos-footer {
+  width: 6vw;
+  height: auto;
+  padding: 1em;
+}
+
+/*footer*/
+footer {
+  margin: 6em;
+  padding-bottom: 5em;
+}
+
+footer p {
+  padding-bottom: .5em;
+}
+
+footer h5 {
+  width: 6vw;
+  height: auto;
+  padding: 1em;
+}
+
+footer div {
+  padding: 1em;
+}
+
 /*headers*/
 
 header {
@@ -241,4 +273,18 @@ header nav ul li a {
   justify-content: space-between;
   width: 84%;
   margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.container article {
+  width: 24%;
+  height: 2.5em;
+  margin-right: 1%;
+  margin-bottom: 1em;
+  box-sizing: border-box;
 }
