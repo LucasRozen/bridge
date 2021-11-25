@@ -247,16 +247,24 @@ header nav ul li a {
 
 .numero_fecha{
   font-size: 3.4375em;
+  font-weight: 600;
+  line-height: 3.4375em;
 }
 
 .dia_fecha{
   font-size: 0.9375em;
+  font-weight: 400;
+  line-height: 0.9375em;
 }
 
 .nombre_concierto{
   font-size: 0.875em;
+  font-weight: 400;
+  line-height: 0.875em;
 }
 
 .buy_tickets{
   font-size: 1.0625em;
+  font-weight: 600;
+  line-height: 1.0625em;
 }
