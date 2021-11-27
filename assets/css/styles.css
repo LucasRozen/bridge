@@ -63,6 +63,22 @@ h2 {
   padding: 5em 0;
 }
 
+.full_width_bott_izq {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  background: #000;
+  padding-top: 2em;
+}
+
+.full_width_bott_izq a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.8em 2em;
+  border: 1px solid #fff;
+  justify-content: left;
+}
 
 .full_width_bott a {
   color: #fff;
@@ -77,6 +93,11 @@ h2 {
 }
 
 .full_width_bott a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.full_width_bott_izq a:hover {
   color: #000;
   background-color: #fff;
 }
@@ -389,7 +410,7 @@ header nav ul li a {
   width: 50em;
   margin-right: .5em;
   margin-left: auto;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
   box-sizing: border-box;
   margin-top: 4em;
 }
@@ -417,7 +438,7 @@ header nav ul li a {
   width: 20em;
   margin-right: auto;
   margin-left: .5em;
-  margin-bottom: 1em;
+  margin-bottom: 8em;
   box-sizing: border-box;
   margin-top: 4em;
 
