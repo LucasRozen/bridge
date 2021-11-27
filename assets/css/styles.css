@@ -30,6 +30,14 @@ img {
   justify-content: space-between;
 }
 
+#gallery_lastpost {
+  padding-bottom: 10em;
+}
+
+#gallery_ourdiscography {
+  padding-top: 10em;
+}
+
 /*globales h2*/
 h2 {
   text-transform: uppercase;
@@ -321,6 +329,33 @@ header nav ul li a {
   font-size: 2vh;
   line-height: 2em;
 }
+
+#video_index {
+  background-image: url("../images/home/video_foto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+#padding_foto {
+  padding: 15em;
+  width: 100%;
+  text-align: center;
+}
+
+#centrar_icono {
+  /* display: flex;
+  justify-content: center; */
+  /* padding-left: 35em; */
+  width: 30vh;
+  height: auto;
+  color: white;
+}
+
 
 /*fin index*/
 
