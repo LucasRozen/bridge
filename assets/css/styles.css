@@ -46,6 +46,16 @@ h2 {
 }
 
 .full_width {
+  width: 50%;
+  background: #000;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-top: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.full_width_bott {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -53,7 +63,8 @@ h2 {
   padding: 5em 0;
 }
 
-.full_width a {
+
+.full_width_bott a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -65,7 +76,7 @@ h2 {
   border: #303030;
 }
 
-.full_width a:hover {
+.full_width_bott a:hover {
   color: #000;
   background-color: #fff;
 }
@@ -280,11 +291,43 @@ header nav ul li a {
   height: auto;
 }
 
+.h2_index {
+  font-size: 5vh;
+  padding-bottom: .5em;
+}
+
+.p_index {
+  font-size: 2vh;
+  line-height: 2em;
+}
+
 /*fin index*/
 
 .thumb {
   width: 24%;
   margin: 0.5em 0;
+}
+
+.thumb_ig {
+  width: 33%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.flex-container p {
+  line-height: 2em;
+}
+
+.flex-container h3 {
+  line-height: 2em;
+  margin-top: 1em;
 }
 
 .fila::after {
@@ -304,6 +347,15 @@ header nav ul li a {
   justify-content: space-between;
   width: 90%;
   margin: auto;
+}
+
+.section_index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 .container {
