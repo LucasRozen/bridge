@@ -97,26 +97,28 @@ h2 {
   margin-bottom: 1em;
 }
 
-#bridge-iconos-footer {
+.bridge-iconos-footer {
   width: 6vw;
   height: auto;
   padding: 1em;
+  color: #a09d9d;
 }
 
 
 footer {
-  margin: 6em;
+  margin: 4em;
   padding-bottom: 5em;
 }
 
 footer p {
   padding-bottom: .5em;
+  line-height: 2em;
 }
 
 footer h5 {
   width: 6vw;
   height: auto;
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 footer div {
@@ -400,6 +402,7 @@ header nav ul li a {
   height: 5em;
   padding: auto;
   padding-right: 2em;
+  color: #a09d9d;
 }
 
 
@@ -439,6 +442,14 @@ header nav ul li a {
   margin-left: 4em;
   padding-top: 0%;
   height: 15vh;
+}
+
+.chico {
+  margin-top: 0%;
+  margin: 0%;
+  margin-left: 5em;
+  padding-top: 0%;
+  height: 3vh;
 }
 
 .p_event {
