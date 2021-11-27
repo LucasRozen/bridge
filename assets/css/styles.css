@@ -111,23 +111,21 @@ footer {
 }
 
 footer p {
-  padding-bottom: .5em;
   line-height: 2em;
 }
 
 footer h5 {
-  width: 6vw;
+  width: 4vw;
   height: auto;
   padding-bottom: 1em;
 }
 
 footer div {
-  padding: 1em;
+  padding: .5em;
 }
 
 footer h5 {
-  font-size: 1.5em;
-  position: top;
+  font-size: 1em;
 }
 
 
