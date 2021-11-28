@@ -443,6 +443,17 @@ header nav ul li a {
   width: 100%;
 }
 
+/* .img_discography :hover {
+
+  color: white;
+  background-color: black;
+
+} */
+
+.imagen:hover {
+  filter: opacity(.5);
+  color: #000;
+}
 
 .section_disc {
   display: flex;
