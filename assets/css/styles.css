@@ -301,6 +301,8 @@ header nav ul li a {
 .reproductor-small {
   display: flex;
   flex-wrap: nowrap;
+  background-color: white;
+  color: #000;
 }
 
 .no-wrap-flex {
