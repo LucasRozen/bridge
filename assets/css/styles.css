@@ -231,7 +231,7 @@ header nav ul li a {
   max-height: none;
   transform: matrix3d(0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0em;
-  font-size: 14.875em;
+  font-size: 14em;
   font-weight: 600;
   line-height: 1.04em;
   visibility: inherit;
@@ -240,6 +240,7 @@ header nav ul li a {
   min-width: 100vh;
   min-height: 0em;
   max-height: none;
+  padding-bottom: .4em;
 }
 
 .index-appstore-position-right {
@@ -308,6 +309,7 @@ header nav ul li a {
 .no-wrap-flex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .reproductor-small-span-no-wrap-flex {
@@ -315,11 +317,14 @@ header nav ul li a {
   flex-direction: row;
   align-items: center;
   margin: 0% auto;
+  width: 80%;
+  justify-content: space-between;
 }
 
 .reproductor-small span div img {
   width: 25%;
   height: auto;
+  justify-content: space-between;
 }
 
 .h2_index {
