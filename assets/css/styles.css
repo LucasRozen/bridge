@@ -377,6 +377,46 @@ header nav ul li a {
   margin-right: 3em;
 }
 
+.flex-container_index {
+  display: flex;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 8em;
+}
+
+#article_1_columnas {
+  width: 5%;
+  height: auto;
+  margin-right: 5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+.padding_foto_index {
+  padding-bottom: 2em;
+}
+
+#interlineado {
+  line-height: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+#article_1_columnas img {
+  width: 1vh;
+  margin-bottom: 3em;
+}
+
+
+
+#article_2_columnas {
+  width: 80%;
+  height: 2.5em;
+  margin-left: 10em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
 .flex-container p {
   line-height: 2em;
 }
