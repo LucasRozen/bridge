@@ -619,7 +619,58 @@ header nav ul li a {
   margin-left: 10em;
   margin-bottom: 1em;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+/* display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 90%;
+margin: auto;
+} */
+
+/* position: relative;
+width: 24%;
+margin: 0.5em 0;  */
+.art_list_nombres {
+  width: 60%;
+  position: relative;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  color: grey;
+  /* border-bottom: 1px solid #2b2b2b; */
+
+}
+
+
+
+
+.art_list_duracion {
+  width: 20%;
+  position: relative;
+  padding-bottom: 1.5em;
+  padding-top: 1.53em;
+  color: grey;
+
+}
+
+
+
+
+.art_list_iconos {
+  width: auto;
+  position: relative;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  color: grey;
+  /* border-bottom: 1px solid #2b2b2b; */
+
+}
+
+
+
 
 .flex-container p {
   line-height: 2em;
