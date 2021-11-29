@@ -504,7 +504,12 @@ header nav ul li a {
   padding-left: 6em;
   text-decoration-color: white;
 }
-
+.form{
+  padding-right: 2em;
+  display: flex; 
+  flex-direction: column; 
+  padding-left: 3em;
+}
 .elementos_form{
   background-color: black;
   border-color: white;
