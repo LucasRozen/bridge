@@ -511,8 +511,14 @@ header nav ul li a {
   padding-left: 3em;
 }
 .elementos_form{
+  padding-bottom: 2em;
+  margin-bottom: 2em;
   background-color: black;
   border-color: white;
+  width: 30em;
+}
+.boton_form{
+  background-color: white;
 }
 
 .text_au {
