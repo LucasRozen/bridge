@@ -213,6 +213,7 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 85vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
@@ -692,5 +693,5 @@ header nav ul li a {
 #text-center {
   margin-top: 300%;
   text-align: center;
-  
+  position: absolute;
 }
