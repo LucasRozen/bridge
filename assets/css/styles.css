@@ -297,11 +297,12 @@ header nav ul li a {
   background-image: url("../images/about-us/about-the-band.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center center; */
+  background-position: center center;
   height: 70vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
+  background-attachment: fixed;
 }
 
 
