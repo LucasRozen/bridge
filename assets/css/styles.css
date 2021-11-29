@@ -316,6 +316,15 @@ header nav ul li a {
 
 }
 
+.navbar_au {
+  display: flex;
+  position: relative;
+  left: auto;
+  float: right;
+  margin-right: 4em;
+
+}
+
 .item_navbar {
   display: flex;
   line-height: 100px;
@@ -833,4 +842,10 @@ header nav ul li a {
   margin-top: 300%;
   text-align: center;
   position: absolute;
+}
+
+.space_beetwen_ {
+  width: 100%;
+  flex-direction: column-reverse;
+
 }
