@@ -295,7 +295,6 @@ header nav ul li a {
   position: relative;
   justify-content: space-between;
   background-attachment: fixed;
-  overflow: scroll;
 }
 
 
