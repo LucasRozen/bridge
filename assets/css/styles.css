@@ -1009,3 +1009,12 @@ margin: 0.5em 0;  */
   color: #212121;
   transition: .3s ease;
 }
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+
+  transform: scale(1.05);
+}
