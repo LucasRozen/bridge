@@ -235,7 +235,7 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 85vh;
+  height: 70vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
@@ -326,6 +326,13 @@ header nav ul li a {
 }
 
 .navbar_au {
+  display: flex;
+  position: absolute;
+  margin-left: 2.4em;
+
+}
+
+.navbar_tour {
   display: flex;
   position: absolute;
   margin-left: 2.4em;
@@ -861,6 +868,13 @@ header nav ul li a {
   position: absolute;
   bottom: 40%;
   right: 40%;
+  font-size: 2.8em;
+}
+
+.tour {
+  position: absolute;
+  bottom: 40%;
+  right: 43%;
   font-size: 2.8em;
 }
 
