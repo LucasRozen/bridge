@@ -213,7 +213,6 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
@@ -688,4 +687,10 @@ header nav ul li a {
 
 .p_event {
   width: 100%;
+}
+
+#text-center {
+  margin-top: 300%;
+  text-align: center;
+  vertical-align: middle;
 }
