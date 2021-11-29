@@ -850,14 +850,14 @@ header nav ul li a {
 
 }
 
-.contact_us {
+.about_the_band {
   position: absolute;
   bottom: 40%;
   right: 40%;
   font-size: 2.8em;
 }
 
-/* .contact_us p {
+/* .about_the_band  p {
   font-size: 3.75em;
   font-weight: 40em;
   line-height: 1.15em;
