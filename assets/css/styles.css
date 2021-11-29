@@ -849,3 +849,16 @@ header nav ul li a {
   flex-direction: column-reverse;
 
 }
+
+.contact_us {
+  position: absolute;
+  bottom: 40%;
+  right: 40%;
+  font-size: 2.8em;
+}
+
+/* .contact_us p {
+  font-size: 3.75em;
+  font-weight: 40em;
+  line-height: 1.15em;
+} */
