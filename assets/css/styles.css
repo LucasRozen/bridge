@@ -239,6 +239,8 @@ header nav ul li a {
   width: 100%;
   position: relative;
   justify-content: space-between;
+  background-attachment: fixed;
+
 }
 
 /*------------------------------*/
@@ -309,6 +311,21 @@ header nav ul li a {
 
 #header-contactus {
   background-image: url("../images/contact-us/contact-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  background-attachment: fixed;
+}
+
+.contact_us {
+  position: absolute;
+  bottom: 40%;
+  right: 40%;
+  font-size: 2.8em;
 }
 
 #header-album {
@@ -338,6 +355,9 @@ header nav ul li a {
   margin-left: 2.4em;
 
 }
+
+
+
 
 .item_navbar {
   display: flex;
