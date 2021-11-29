@@ -34,6 +34,10 @@ img {
   padding-bottom: 10em;
 }
 
+#gallery_aboutus {
+  padding-bottom: 10em;
+}
+
 #gallery_ourdiscography {
   padding-top: 10em;
 }
@@ -55,6 +59,16 @@ h2 {
 
 .full_width {
   width: 50%;
+  background: #000;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-top: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.full_width_au {
+  width: 90%;
   background: #000;
   padding-bottom: 2em;
   padding-left: 4em;
@@ -349,6 +363,14 @@ header nav ul li a {
   line-height: 2em;
 }
 
+.p_aboutus {
+  font-size: 2.1vh;
+  line-height: 2em;
+  width: 79%;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
 #video_index {
   background-image: url("../images/home/video_foto.jpeg");
   background-repeat: no-repeat;
@@ -390,11 +412,22 @@ header nav ul li a {
   margin-right: 1em;
 }
 
+.thumb_au {
+  width: 25%;
+  margin: 0%;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
   margin-left: 3em;
   margin-right: 3em;
+}
+
+.flex-container_aboutus {
+  display: flex;
+  justify-content: center;
+
 }
 
 .flex-container_index {
