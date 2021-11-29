@@ -516,11 +516,13 @@ header nav ul li a {
   background-color: black;
   border-color: white;
   width: 30em;
+  text-align: center;
 }
 .boton_form{
   background-color: white;
   height: 2em;
   text-decoration-color: black;
+  text-align: center;
 }
 
 .text_au {
