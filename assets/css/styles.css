@@ -131,6 +131,14 @@ h2 {
 
 }
 
+#bridge-logo-aboutus {
+  width: 5.5vw;
+  height: auto;
+  margin: 1em;
+  justify-content: space-between;
+
+}
+
 #bridge-logo-disc {
   width: 7vw;
   height: auto;
@@ -298,6 +306,7 @@ header nav ul li a {
 }
 
 
+
 #header-contactus {
   background-image: url("../images/contact-us/contact-us.jpg");
 }
@@ -318,10 +327,8 @@ header nav ul li a {
 
 .navbar_au {
   display: flex;
-  position: relative;
-  left: auto;
-  float: right;
-  margin-right: 4em;
+  position: absolute;
+  margin-left: 2.4em;
 
 }
 
