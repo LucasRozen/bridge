@@ -33,7 +33,7 @@
         <h1 class="contact_us">CONTACT US</h1>
     </header>
     <main>
-        <section style="justify-content: space-between; padding: 9em; padding-left: 6em;">
+        <section class="seccion_contact">
             <article >
                 <h2>PRESS</h2>
                 <p class="inconsolata">youremail@yourdomain.com</p>
@@ -84,9 +84,14 @@
                     </article>
                 </article>
             </article>
-            <article>
-                <form action="">
+            <article class="inconsolata" >
+                <form action="" style="display: flex; flex-direction: column; padding-left: 3em;">
+                    <input type="text" placeholder="Your Name*">
+                    <input type="email" placeholder="Your Email*">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                    <button value="SEND MESSAGE">
 
+                    </button>
                 </form>
             </article>
         </section>

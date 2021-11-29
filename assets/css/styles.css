@@ -498,6 +498,12 @@ header nav ul li a {
   height: 100%;
 }
 
+.seccion_contact{
+  justify-content: space-between; 
+  padding: 9em; 
+  padding-left: 6em;
+}
+
 .text_au {
   color: white;
   font-size: 2em;
