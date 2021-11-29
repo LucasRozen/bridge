@@ -131,6 +131,14 @@ h2 {
 
 }
 
+#bridge-logo-aboutus {
+  width: 5.5vw;
+  height: auto;
+  margin: 1em;
+  justify-content: space-between;
+
+}
+
 #bridge-logo-disc {
   width: 7vw;
   height: auto;
@@ -289,13 +297,13 @@ header nav ul li a {
   background-image: url("../images/about-us/about-the-band.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
   height: 70vh;
   width: 100%;
   position: relative;
   justify-content: space-between;
-  background-attachment: fixed;
 }
+
 
 
 #header-contactus {
@@ -318,10 +326,8 @@ header nav ul li a {
 
 .navbar_au {
   display: flex;
-  position: relative;
-  left: auto;
-  float: right;
-  margin-right: 4em;
+  position: absolute;
+  margin-left: 2.4em;
 
 }
 
