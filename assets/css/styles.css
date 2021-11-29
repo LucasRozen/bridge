@@ -520,6 +520,7 @@ header nav ul li a {
 .boton_form{
   background-color: white;
   height: 2em;
+  text-decoration-color: black;
 }
 
 .text_au {
