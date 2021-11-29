@@ -44,13 +44,14 @@ var canciones=[
 for (i=0;i<10;i++) {
     ul1.innerHTML+=`
         <li>
-            <h3><span>${i+1}.</span>${canciones[i].nombre}</h3><span>${canciones[i].duracion}</span>
+            <h3 class="lista1_colorgris"><span>${i+1}.</span>${canciones[i].nombre}<span class= "lista1_duracion inconsolata" >${canciones[i].duracion}</span>
             <a class="reproducir_pausar_reproductor_big">
-                <i class="fas fa-play"><audio src=""></audio></i>
+                <i class="lista1_iconos fas fa-play"><audio src=""></audio></i>
             </a>
             <a class="video_reproductor_big" href="https://vimeo.com/33730560">
-                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                <i class="lista1_icono fa fa-video-camera" aria-hidden="true"></i>
             </a>
+            </h3>
         </li>
     `
 }

@@ -905,3 +905,49 @@ header nav ul li a {
   font-weight: 40em;
   line-height: 1.15em;
 } */
+.lista1_duracion {
+  color: grey;
+  font-size: 1em;
+  text-align: right;
+  justify-content: space-between;
+  margin-left: 15em;
+}
+
+.lista1_colorgris {
+  color: grey;
+  justify-content: space-between;
+}
+
+.lista1_iconos {
+  color: grey;
+  margin-left: 0em;
+  margin-right: 2em;
+  text-align: right;
+  justify-content: space-around;
+
+
+}
+
+.lista1_icono {
+  color: grey;
+  margin-left: 1em;
+  margin-right: 0em;
+  text-align: right;
+  justify-content: right;
+
+}
+
+
+
+.lista_de_canciones_reproductor_big {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.loop_lista_de_canciones_reproductor_big {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
