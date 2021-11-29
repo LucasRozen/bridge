@@ -208,6 +208,17 @@ header nav ul li a {
 
 }
 
+#header-tour {
+  background-image: url("../images/tour/tour-dates.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+
 /*------------------------------*/
 
 #header-index {
@@ -270,6 +281,7 @@ header nav ul li a {
   position: relative;
   justify-content: space-between;
 }
+
 
 #header-contactus {
   background-image: url("../images/contact-us/contact-us.jpg");
