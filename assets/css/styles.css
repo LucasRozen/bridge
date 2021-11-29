@@ -1024,3 +1024,14 @@ margin: 0.5em 0;  */
 
   transform: scale(1.05);
 }
+
+#album-columnas{
+  display: flex;
+  flex: wrap;
+  position: relative;
+}
+
+section article ul li{
+  flex-direction: column;
+}
+
